@@ -44,6 +44,9 @@ python src/app.py --stock_csv data/aapl_sample.csv --predict_day 45
 ```
 
 ## 4) Outputs
-- `svr_models.png` → plot of data + model fits
-  (sentiment_pie_chart.png)  
-- `predictions.json` → numeric predictions from RBF, Linear, and Poly SVR
+- `svr_models.png` → plot of data + model fits  
+- `predictions.json` → numeric predictions from RBF, Linear, and Poly SVR  
+
+### Example Plot:
+![SVR Models](svr_models.png)
+
